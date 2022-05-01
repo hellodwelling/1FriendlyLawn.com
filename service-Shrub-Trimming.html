@@ -636,6 +636,30 @@
                             </div>
                         <!-- </each> -->
                         
+                            <div
+                                class="relative flex items-center"
+                                x-trap.inert="desktopOpen"
+                                x-data="{ desktopOpen: false }"
+                                @keydown.escape.stop="desktopOpen = false"
+                                @click.away="desktopOpen = false"
+                            >
+                            <!-- <div>navitem_6</div>  -->
+                                <!-- We decide between direct link and dropdown here -->
+                                <!-- <if condition="item.links"> -->
+                                
+                                    <a
+                                        href=" jobs "
+                                        class=" border-transparent hover:border-gray-300 hover:text-gray-700 text-gray-500  group pb-5 pt-6 inline-flex items-center px-1 transition text-sm font-medium  text-gray-500  focus:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2"
+                                    >
+                                        Jobs 
+                                    </a>
+                                <!-- </else> -->
+                                
+                                
+                                
+                            </div>
+                        <!-- </each> -->
+                        
 
                     </div>
                 </div>
@@ -881,6 +905,19 @@
                                         href=" reviews "
                                         class=" 'text-gray-700'  block px-3 py-2 text-base font-medium rounded-md border-secondary transition"
                                         >Reviews</a
+                                    >
+                                
+                                
+                            </div>
+                        <!-- </each> -->
+                      
+                            <div x-trap.inert="openMenu == 'navitem_6'">
+                                <!-- We decide between direct link and dropdown here -->
+                                
+                                    <a
+                                        href=" jobs "
+                                        class=" 'text-gray-700'  block px-3 py-2 text-base font-medium rounded-md border-secondary transition"
+                                        >Jobs</a
                                     >
                                 
                                 
@@ -1275,8 +1312,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         I enjoyed working with Jenny, Miguel and their team! Jenny was very helpful with suggestions and as week g any questions I had. The installation took two days and looks great! Would highly recommend them!
-
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1360,8 +1395,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         Wow! I am amazed! My yard looks impeccable! These guys went above and beyond, even on such short notice! Highly recommend. Will be using their services in the future!! Thank you!!
-
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1445,7 +1478,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         Me encanta sus servicios cada ves que vienen mi patio queda imprecionante se nota su esfuerzo y dedicacion gracias por su buen trabajo
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1529,7 +1561,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         This people is great very professional. Thanks I love the way my yard looks now.
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1613,13 +1644,11 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         Excellent service.  They showed up on time, quickly trimmed some overgrown palm trees and branches in my yard in South Tampa and hauled everything away as promised.  Everything looked better than I imagined it would when they were finished.  Jenny is very thorough and professional in setting up the appointment and getting you an accurate estimate.   The man who did the yard work was friendly and professional as well and made sure I was happy with how everything looked when they were finished.   I would highly recommend this company.
-
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Jason K. </span>
+                                        <span class="block font-medium text-primary">Jason K.</span>
                                         <span class="block font-medium">Hillsborough County, FL</span>
                                     </div>
 
@@ -1705,7 +1734,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         5 stars
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1789,8 +1817,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         We hired 1 Friendly Lawn Service to do a general cleanup of our yard. Their office representative Jenny is very prompt and courteous in her responses. They provided a quote same day. Their team showed up on time and did a great job. They did everything we asked and the cleanup was thorough. We have kept using their service for regular garden maintenance. Their prices are very fair.
-
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1874,8 +1900,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         Jenny helped me with my lawn and made sure I found what I was looking for. The people did an amazing job with my lawn and I will recommend this place to everyone.
-
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -1959,7 +1983,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         Professionalism, Quality, Responsiveness, Value. Phenomenal transformation! Professional, excellent work, excellent service, beyond expectations! Thank you Friendly Lawn Service for making our home beautiful again! Our neighbors are so impressed and thankful! Services: Weed control, Yard cleanup.⭐️⭐️⭐️⭐️⭐️
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -2043,7 +2066,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         I&#x27;ve used this company for over two years. Always on time, very professional, easy to reach. And they do a fantastic job!
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -2134,7 +2156,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         So wonderful to find a lawn service to help me with my lawn!!  I have not been able to really do yardwork since an accident in 2011 and my yard was a mess.  1 Friendly Lawn Service is convenient to work with and the job is done really well!!  Hampton Terrace Historic District Neighbors  be sure to call Jenny for a quote!
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -2218,7 +2239,6 @@
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
                                         I always recommend this company, top 5. They are professional, detail oriented,  timely, affordable and I understand why &quot;friendly service&quot;,  we can trust them.
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -2304,7 +2324,6 @@
                                         WOW! You won’t find anyone more professional and personable than 1 Friendly Lawn Service!  We are grateful they happened to be working in our neighborhood when we needed them.  
 We have just bought a new home, and the front yard was a mess from the overgrown grass and leaves from all the trees.  We needed someone to quickly mow our front yard but we also discussed cleaning out the leaves from our flowerbeds, as well as helping us with our back yard.
 They offered their services at a reasonable price, and completed the work promptly and when promised.  They went far beyond our expectations for the work we requested. It is obvious they take pride in the work they do.  We will be using 1 Friendly Lawn Service for all of our lawn service needs!
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -2389,8 +2408,6 @@ They offered their services at a reasonable price, and completed the work prompt
                                     <p lorem="1" class="relative text-lg font-medium">
                                         Jenny the admin and the team are amazing. I wish I found this lawn service sooner. They are prompt, professional, &amp; thorough. These guys accommodated some &#x27;special requests&#x27; I had regarding routine lawn work for an aging relative who is -let&#x27;s just say- particular.
 I couldn&#x27;t be happier with the service and would recommend this company to my friends and family.
-
-
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
@@ -2720,6 +2737,14 @@ I couldn&#x27;t be happier with the service and would recommend this company to 
                           
                           
                           
+                          <li>
+                              <a
+                                  href="jobs"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Jobs</a
+                              >
+                          </li>
+                          
                           
                       </ul>
                   </div>
@@ -2985,46 +3010,46 @@ I couldn&#x27;t be happier with the service and would recommend this company to 
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198070"
-                                                    name="198070"
+                                                    id="contact-service-199603"
+                                                    name="199603"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mowing"
                                             />
-                                            <label for="contact-label-service-198070" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                            <label for="contact-label-service-199603" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198071"
-                                                    name="198071"
+                                                    id="contact-service-199604"
+                                                    name="199604"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mulch Installation"
                                             />
-                                            <label for="contact-label-service-198071" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
+                                            <label for="contact-label-service-199604" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198072"
-                                                    name="198072"
+                                                    id="contact-service-199605"
+                                                    name="199605"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Shrub Trimming"
                                             />
-                                            <label for="contact-label-service-198072" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
+                                            <label for="contact-label-service-199605" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198073"
-                                                    name="198073"
+                                                    id="contact-service-199606"
+                                                    name="199606"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Fall and Spring Clean Up"
                                             />
-                                            <label for="contact-label-service-198073" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
+                                            <label for="contact-label-service-199606" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
                                         </div>
                                         
                                     </div>
@@ -3055,46 +3080,46 @@ I couldn&#x27;t be happier with the service and would recommend this company to 
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198070"
-                                                    name="198070"
+                                                    id="contact-service-199603"
+                                                    name="199603"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mowing"
                                             />
-                                            <label for="contact-label-service-198070" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                            <label for="contact-label-service-199603" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198071"
-                                                    name="198071"
+                                                    id="contact-service-199604"
+                                                    name="199604"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mulch Installation"
                                             />
-                                            <label for="contact-label-service-198071" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
+                                            <label for="contact-label-service-199604" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198072"
-                                                    name="198072"
+                                                    id="contact-service-199605"
+                                                    name="199605"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Shrub Trimming"
                                             />
-                                            <label for="contact-label-service-198072" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
+                                            <label for="contact-label-service-199605" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198073"
-                                                    name="198073"
+                                                    id="contact-service-199606"
+                                                    name="199606"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Fall and Spring Clean Up"
                                             />
-                                            <label for="contact-label-service-198073" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
+                                            <label for="contact-label-service-199606" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
                                         </div>
                                         
                                     </div>

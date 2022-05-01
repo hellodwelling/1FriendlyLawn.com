@@ -636,6 +636,30 @@
                             </div>
                         <!-- </each> -->
                         
+                            <div
+                                class="relative flex items-center"
+                                x-trap.inert="desktopOpen"
+                                x-data="{ desktopOpen: false }"
+                                @keydown.escape.stop="desktopOpen = false"
+                                @click.away="desktopOpen = false"
+                            >
+                            <!-- <div>navitem_6</div>  -->
+                                <!-- We decide between direct link and dropdown here -->
+                                <!-- <if condition="item.links"> -->
+                                
+                                    <a
+                                        href=" jobs "
+                                        class=" border-transparent hover:border-gray-300 hover:text-gray-700 text-gray-500  group pb-5 pt-6 inline-flex items-center px-1 transition text-sm font-medium  text-gray-500  focus:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2"
+                                    >
+                                        Jobs 
+                                    </a>
+                                <!-- </else> -->
+                                
+                                
+                                
+                            </div>
+                        <!-- </each> -->
+                        
 
                     </div>
                 </div>
@@ -881,6 +905,19 @@
                                         href=" reviews "
                                         class=" 'text-gray-700'  block px-3 py-2 text-base font-medium rounded-md border-secondary transition"
                                         >Reviews</a
+                                    >
+                                
+                                
+                            </div>
+                        <!-- </each> -->
+                      
+                            <div x-trap.inert="openMenu == 'navitem_6'">
+                                <!-- We decide between direct link and dropdown here -->
+                                
+                                    <a
+                                        href=" jobs "
+                                        class=" 'text-gray-700'  block px-3 py-2 text-base font-medium rounded-md border-secondary transition"
+                                        >Jobs</a
                                     >
                                 
                                 
@@ -1570,6 +1607,14 @@
                           
                           
                           
+                          <li>
+                              <a
+                                  href="jobs"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Jobs</a
+                              >
+                          </li>
+                          
                           
                       </ul>
                   </div>
@@ -1835,46 +1880,46 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198070"
-                                                    name="198070"
+                                                    id="contact-service-199603"
+                                                    name="199603"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mowing"
                                             />
-                                            <label for="contact-label-service-198070" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                            <label for="contact-label-service-199603" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198071"
-                                                    name="198071"
+                                                    id="contact-service-199604"
+                                                    name="199604"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mulch Installation"
                                             />
-                                            <label for="contact-label-service-198071" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
+                                            <label for="contact-label-service-199604" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198072"
-                                                    name="198072"
+                                                    id="contact-service-199605"
+                                                    name="199605"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Shrub Trimming"
                                             />
-                                            <label for="contact-label-service-198072" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
+                                            <label for="contact-label-service-199605" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198073"
-                                                    name="198073"
+                                                    id="contact-service-199606"
+                                                    name="199606"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Fall and Spring Clean Up"
                                             />
-                                            <label for="contact-label-service-198073" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
+                                            <label for="contact-label-service-199606" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
                                         </div>
                                         
                                     </div>
@@ -1905,46 +1950,46 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198070"
-                                                    name="198070"
+                                                    id="contact-service-199603"
+                                                    name="199603"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mowing"
                                             />
-                                            <label for="contact-label-service-198070" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                            <label for="contact-label-service-199603" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198071"
-                                                    name="198071"
+                                                    id="contact-service-199604"
+                                                    name="199604"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mulch Installation"
                                             />
-                                            <label for="contact-label-service-198071" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
+                                            <label for="contact-label-service-199604" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198072"
-                                                    name="198072"
+                                                    id="contact-service-199605"
+                                                    name="199605"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Shrub Trimming"
                                             />
-                                            <label for="contact-label-service-198072" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
+                                            <label for="contact-label-service-199605" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198073"
-                                                    name="198073"
+                                                    id="contact-service-199606"
+                                                    name="199606"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Fall and Spring Clean Up"
                                             />
-                                            <label for="contact-label-service-198073" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
+                                            <label for="contact-label-service-199606" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
                                         </div>
                                         
                                     </div>
